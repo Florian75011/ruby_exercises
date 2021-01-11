@@ -1,0 +1,31 @@
+Last login: Mon Jan 11 16:36:09 on ttys001
+➜  ~ irb
+2.7.1 :001 > puts "Bonjour, c'est quoi ton blase ?"
+Bonjour, c'est quoi ton blase ?
+ => nil 
+2.7.1 :002 > user_name = gets.chomp
+
+2.7.1 :003 > puts user_name
+
+ => nil 
+2.7.1 :004 > #Le get's chomp saute une ligne.
+ => nil 
+2.7.1 :005 > puts "Bonjour, c'est quoi ton blase ?"
+Bonjour, c'est quoi ton blase ?
+ => nil 
+2.7.1 :006 > print "> "
+>  => nil 
+2.7.1 :007 > user_name = gets.chomp
+
+2.7.1 :008 > puts user_name
+
+ => nil 
+2.7.1 :009 > user_name = gets.chomp
+
+2.7.1 :010 > puts user_name
+
+ => nil 
+2.7.1 :011 > #Créer la variable user_name et puts ou bien de différente manière
+
+ => nil 
+2.7.1 :012 > 

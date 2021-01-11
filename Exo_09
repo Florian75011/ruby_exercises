@@ -1,0 +1,27 @@
+Last login: Mon Jan 11 16:43:13 on ttys002
+➜  ~ puts "Write a number please"
+zsh: command not found: puts
+➜  ~ irb
+2.7.1 :001 > puts "Write a number please"
+Write a number please
+ => nil 
+2.7.1 :002 > print "> "
+>  => nil 
+2.7.1 :003 > nombre = gets.chomp.to_i
+compteur = 0
+2.7.1 :004 > while (compteur <= nombre)
+2.7.1 :005 >   puts "Salut, ça farte ?"
+2.7.1 :006 >   compteur <= nombre.to_i
+2.7.1 :007 > end
+Traceback (most recent call last):
+        4: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `<main>'
+        3: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `load'
+        2: from /Users/flo/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/irb-1.2.3/exe/irb:11:in `<top (required)>'
+        1: from (irb):4
+NameError (undefined local variable or method `compteur' for main:Object)
+Did you mean?  Complex
+2.7.1 :008 > 3
+ => 3 
+2.7.1 :009 > 5
+ => 5 
+2.7.1 :010 > 

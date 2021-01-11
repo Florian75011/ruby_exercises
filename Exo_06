@@ -1,0 +1,31 @@
+Last login: Mon Jan 11 16:56:01 on ttys000
+➜  ~ irb
+2.7.1 :001 > print "Entre ton nom :"
+Entre ton nom : => nil 
+2.7.1 :002 > nom = gets.chomp
+print "bonjour #{nom}"
+2.7.1 :003 > 
+2.7.1 :004 > n = 1  
+2.7.1 :005 > while n <= 5 
+2.7.1 :006 >   puts ("# " * n).rjust(10) + " |" 
+2.7.1 :007 >   n += 1 
+2.7.1 :008 > end 
+        #  |
+      # #  |
+    # # #  |
+  # # # #  |
+# # # # #  |
+ => nil 
+2.7.1 :009 > n = 1  
+2.7.1 :010 > while n <= 5 
+2.7.1 :011 >   puts ("# " * n).rjust.reverse(10) + " |" 
+2.7.1 :012 >   n += 1 
+2.7.1 :013 > end 
+Traceback (most recent call last):
+        5: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `<main>'
+        4: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `load'
+        3: from /Users/flo/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/irb-1.2.3/exe/irb:11:in `<top (required)>'
+        2: from (irb):11
+        1: from (irb):11:in `rjust'
+ArgumentError (wrong number of arguments (given 0, expected 1..2))
+2.7.1 :014 > 

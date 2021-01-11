@@ -1,0 +1,24 @@
+Last login: Mon Jan 11 16:39:19 on ttys001
+➜  ~ irb
+2.7.1 :001 > puts "What's your first name and name man ?"
+What's your first name and name man ?
+ => nil 
+2.7.1 :002 > first_name = "John"
+2.7.1 :003 > name = "Mark"
+2.7.1 :004 > puts first_name + name
+JohnMark
+ => nil 
+2.7.1 :005 > hola = "Hello"
+2.7.1 :006 > puts hola + first_name + name
+HelloJohnMark
+ => nil 
+2.7.1 :007 > 
+
+
+
+
+
+
+
+
+

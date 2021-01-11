@@ -1,0 +1,97 @@
+Last login: Mon Jan 11 16:01:17 on ttys000
+➜  ~ irb
+2.7.1 :001 > 5.times do
+2.7.1 :002 >   puts "Hello, world !"
+2.7.1 :003 > end
+Hello, world !
+Hello, world !
+Hello, world !
+Hello, world !
+Hello, world !
+ => 5 
+2.7.1 :004 > 7.times do
+2.7.1 :005 >   print  "Hello world"
+2.7.1 :006 > end
+Hello worldHello worldHello worldHello worldHello worldHello worldHello world => 7 
+2.7.1 :007 > puts 3 * 3
+9
+ => nil 
+2.7.1 :008 > puts 12 - 3
+9
+ => nil 
+2.7.1 :009 > birth_year = 1995
+Helloworld
+ => nil 
+2.7.1 :016 > two = 2
+2.7.1 :017 > three = 3
+2.7.1 :018 > puts two * three
+6
+ => nil 
+2.7.1 :019 > puts three - two
+1
+ => nil 
+2.7.1 :020 > truthy = true
+2.7.1 :021 > puts truthy
+true
+ => nil 
+2.7.1 :022 > float_1 = 1.5
+2.7.1 :023 > float_2 = 2.5
+2.7.1 :024 > puts float_1 + float_2
+4.0
+ => nil 
+2.7.1 :025 > 5.times do |index|
+2.7.1 :026 >   puts index
+2.7.1 :027 > end
+0
+1
+2
+3
+4
+ => 5 
+2.7.1 :028 > 5.times do |i|
+2.7.1 :029 >   puts "=== Boucle n°#{i} ==="
+2.7.1 :030 >   i.times do |j|
+2.7.1 :031 >     puts j
+2.7.1 :032 >   end 
+2.7.1 :033 > end
+=== Boucle n°0 ===
+=== Boucle n°1 ===
+0
+=== Boucle n°2 ===
+0
+1
+=== Boucle n°3 ===
+0
+1
+2
+=== Boucle n°4 ===
+0
+1
+2
+3
+ => 5 
+2.7.1 :034 > # age equal to 21.
+ => nil 
+2.7.1 :035 > age = 21
+2.7.1 :036 > 
+2.7.1 :037 > # vérification
+ => nil 
+2.7.1 :038 > if age > 17
+2.7.1 :039 >   puts « I’ts a great person ! »
+2.7.1 :040 > end
+Traceback (most recent call last):
+        4: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `<main>'
+        3: from /Users/flo/.rvm/rubies/ruby-2.7.1/bin/irb:23:in `load'
+        2: from /Users/flo/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/irb-1.2.3/exe/irb:11:in `<top (required)>'
+        1: from (irb):39
+NameError (undefined local variable or method ` »' for main:Object)
+2.7.1 :041 > 
+2.7.1 :042 > # verification n°2
+ => nil 
+2.7.1 :043 > if age == 21
+2.7.1 :044 >   puts "This person have 21 years !"
+2.7.1 :045 > end
+This person have 21 years !
+ => nil 
+2.7.1 :046 > 
+2.7.1 :047 > 
